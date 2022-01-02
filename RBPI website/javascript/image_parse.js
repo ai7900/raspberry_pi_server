@@ -1,4 +1,4 @@
-/*
+
 const source = 
 ["DLRAW.NET-0001.jpg",
 "DLRAW.NET-0002.jpg",
@@ -14,8 +14,9 @@ const source =
 ]
 
 const path = "content/";
-*/
 
+
+/*
 const path = "file:///C:/Users/matst/Documents/GitHub/raspberry_pi_server/RBPI website/content/filenames.txt";
 
 function readTextFile(file)
@@ -34,11 +35,12 @@ function readTextFile(file)
 	}
 	rawFile.send(null);
 }
+*/
 
 function addElement()
 {	
-
-	readTextFile(path);
+	//readTextFile(path);
+	
 	//lists the source images in source
 	source.forEach(element => console.log(element));
 	
