@@ -13,7 +13,7 @@ file_array = os.listdir(full_path)
 
 f = open(full_path + generate_file, "w")
 for file in file_array:
-    if file.endswith('.jpg'):
+    if file.endswith(('.jpg', '.gif', '.png', '.jpeg')):
         print(file)
         f.write("\"" + file + "\"" + ",\n")
 

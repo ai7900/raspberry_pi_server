@@ -10,6 +10,8 @@ const source =
 "DLRAW.NET-0008.jpg",
 "DLRAW.NET-0009.jpg",
 "DLRAW.NET-0010.jpg",
+"fade.png",
+"laffing-girlf.gif",
 "yukkuri.jpg",
 ]
 
